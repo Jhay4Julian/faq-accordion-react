@@ -12,10 +12,10 @@ export default function Faq() {
     };
 
     return (
-        <section className="">
+        <section className="mx-6">
             <div className="container max-w-md mx-auto p-6 shadow-md bg-white rounded-lg hover:shadow-lg transition duration-300 ease-in-out">
-                <span className="flex justify-inside mb-5">
-                    <img src={starIcon} alt="" className="mr-4 w-8 h-11" />
+                <span className="flex justify-inside mb-3">
+                    <img src={starIcon} alt="" className="mr-4 w-5 h-11" />
                     <h2 className="text-4xl font-bold mb-4">FAQ<span>s</span></h2>
                 </span>
                 <div className="container bg-white">
@@ -40,7 +40,7 @@ export default function Faq() {
                             >
                                 <span className="flex justify-between">
                                     <p className={active === index ? '' : 'truncate'}>{item.question}</p>
-                                    <img src={active === index ? minusIcon : plusIcon} alt="" className="ml-5"/>
+                                    <img src={active === index ? minusIcon : plusIcon} alt="" className="ml-8"/>
                                 </span>
                             </button>
                             <div className={`overflow-hidden text-left text-gray-600 transition-all duration-400 ease-in-out ${active === index ? 'max-h-40 opacity-100': 'max-h-0 opacity-0'}`}>

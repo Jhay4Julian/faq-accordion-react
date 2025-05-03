@@ -7,12 +7,12 @@ export default function Header() {
             <img
                 src={mobileHeader}
                 alt="header image"
-                className='h-40 w-full object-cover md:hidden'
+                className='h-50 w-full object-cover md:hidden'
             />
             <img
                 src={desktopHeader}
                 alt="header image"
-                className='h-50 w-full object-cover hidden md:block '
+                className='h-55 w-full object-cover hidden md:block '
             />
         </header>
     );
