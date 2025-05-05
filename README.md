@@ -30,3 +30,9 @@ npm install
 npm run dev
 ```
 
+
+![FAQ1](https://github.com/user-attachments/assets/af5fdc42-e412-4100-ad8b-0c54ddeb8f1d)
+
+![FAQ2](https://github.com/user-attachments/assets/52cc944f-b6fc-48ab-a7ec-e305f2ae5ecc)
+
+![FAQ3](https://github.com/user-attachments/assets/d3e61ea2-bc9c-4a30-b2b4-e380929d679c)
